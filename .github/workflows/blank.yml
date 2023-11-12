@@ -15,6 +15,6 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-      - run:  echo "dsadasdas"  | python main.py 
+      - run:   python main.py | echo "dsadasdas"  
                   
      
