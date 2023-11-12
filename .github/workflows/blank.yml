@@ -15,5 +15,6 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
+      - run: sudo pkill -f 'java -jar' 
                   
      
