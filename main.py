@@ -1,6 +1,6 @@
 import random
 
-word = input("Введіть своє слово: ")
+word = input("Введіть своє слово: ") 
 shift = int(input("Введіть сдвиг: "))
 
 text = ""
