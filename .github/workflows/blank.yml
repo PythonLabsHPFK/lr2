@@ -1,0 +1,28 @@
+name: Java CI
+
+on:
+  workflow_dispatch: 
+  push:
+    branches:
+      - "*"
+
+
+jobs:
+  build:
+    runs-on: self-hosted 
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+                  
+  deploy:
+        runs-on: self-hosted
+        needs: build
+        steps:
+           - name: Get the artifact
+             uses: actions/download-artifact@master
+             with:
+              name: skillscope-4.2.2
+           - name: Fake deploy
+     
