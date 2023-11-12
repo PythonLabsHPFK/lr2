@@ -15,8 +15,8 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-      - run: main.py 
-      - run: hello
-      - run: 3
+      - run: python main.py 
+      - run: "hello"
+      - run: "3"
                   
      
