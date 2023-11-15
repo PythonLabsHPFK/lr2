@@ -3,7 +3,7 @@
 spawn python main.py
 
 expect "Введіть своє слово:"
-send "Hello\r"
+send "'Hello'\r"
 
 expect "Введіть сдвиг:"
 send "3\r"
