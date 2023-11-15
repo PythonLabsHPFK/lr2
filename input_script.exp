@@ -8,5 +8,5 @@ send "'Hello'\r"
 expect "Введіть сдвиг:"
 send "3\r"
 
-interact
+expect eof
 
