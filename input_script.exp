@@ -1,6 +1,6 @@
 #!/usr/bin/expect
 
-spawn python myscript.py
+spawn python main.py
 
 expect "Введіть своє слово:"
 send "Hello\r"
