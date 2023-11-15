@@ -15,7 +15,7 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-      - run:   ls
+      - run:   chmod +x input_script.exp
       - run:   ./input_script.exp
                   
      
