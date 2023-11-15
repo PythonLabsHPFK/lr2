@@ -25,6 +25,6 @@ while output != word:
         index_alphabet_new = index_alphabet - i
         if index_alphabet_new < 0:
             index_alphabet_new -= 1
-        output += alphabet[index_alphabet_new]
+        output += alphabet[index_alphabet_new] if alphabet[index_alphabet_new] else ""
     print("Guess:", output)
     i += 1
