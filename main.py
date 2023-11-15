@@ -1,7 +1,7 @@
 #coding=utf-8
 import random
 
-word = input("Введіть своє слово: ")
+word = input("Введіть своє слово: ").lower()
 shift = int(input("Введіть сдвиг: "))
 
 text = ""
