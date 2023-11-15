@@ -1,0 +1,11 @@
+#!/usr/bin/expect
+
+spawn python myscript.py
+
+expect "Введіть своє слово:"
+send "Hello\r"
+
+expect "Введіть сдвиг:"
+send "3\r"
+
+interact
