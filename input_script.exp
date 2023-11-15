@@ -7,5 +7,6 @@ send -- "'Hello'\r"
 
 expect "Введіть сдвиг:"
 send -- "3\r"
+send -- "'stop'\r"
 expect eof
 
