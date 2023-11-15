@@ -15,6 +15,7 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-      - run:   python main.py < input_file.txt
+      - run:   ls
+      - run:   python main.py < ../input_file.txt
                   
      
